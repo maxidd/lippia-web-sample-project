@@ -6,7 +6,7 @@ Feature: Como cliente quiero ingresar las credenciales de mi cuenta, para ingres
     When el cliente hace click en el botón Sign in
     Then el cliente verifica que fue redireccionado a la pantalla de Login
 
-    When el cliente ingresa su email: luisjivillalba@gmail.com
-    And el cliente ingresa su password: asd123
-    And el cliente hace click en el botón Sig in
+    When el cliente ingresa su email: dminguez33@gmail.com
+    And el cliente ingresa su password: password
+    And el cliente hace click en el botón Sign in del login
     Then el cliente verifica que fue redireccionado a la pantalla de My Account
